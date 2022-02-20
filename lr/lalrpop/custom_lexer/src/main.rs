@@ -1,4 +1,4 @@
-extern crate whitespace;
+// use whitespace;
 
 fn main() {
     use std::io::*;
@@ -26,5 +26,5 @@ fn main() {
         return;
     }
 
-    whitespace::compile(&source).expect("OH NO").interpret();
+    // whitespace::compile(&source).expect("OH NO").interpret();
 }
